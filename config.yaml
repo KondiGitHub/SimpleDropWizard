@@ -1,0 +1,9 @@
+message: This is a message defined in the configuration file config.yaml.
+messageRepetitions: 3
+server:
+  type: simple
+  applicationContextPath: /
+  connector:
+    type: http
+    # replacing environment variables
+    port: 5050
