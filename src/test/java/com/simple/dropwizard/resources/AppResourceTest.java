@@ -19,7 +19,7 @@ public class AppResourceTest {
 	@Test
 	public void addTest() {
 		AppResource appResource = new AppResource();
-		assertThat(appResource.add(3, 5)).isEqualTo(10);
+		assertThat(appResource.add(3, 5)).isEqualTo(8);
 
 	}
 
