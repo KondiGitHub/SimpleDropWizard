@@ -1,9 +1,9 @@
-package com.chary.simple.dropwizard;
+package com.simple.dropwizard;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.chary.simple.dropwizard.resources.AppResource;
+import com.simple.dropwizard.resources.AppResource;
 
 import io.dropwizard.Application;
 import io.dropwizard.Configuration;

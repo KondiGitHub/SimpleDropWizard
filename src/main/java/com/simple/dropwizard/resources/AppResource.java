@@ -1,4 +1,4 @@
-package com.chary.simple.dropwizard.resources;
+package com.simple.dropwizard.resources;
 
 import javax.ws.rs.*;
 import javax.ws.rs.core.*;
