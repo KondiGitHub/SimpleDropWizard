@@ -26,7 +26,7 @@ public class AppResourceTest {
 	@Test
 	public void subtractionTest() {
 		AppResource appResource = new AppResource();
-		assertThat(appResource.add(15, 5)).isEqualTo(10);
+		assertThat(appResource.subtrract(15, 5)).isEqualTo(10);
 
 	}
 	
@@ -40,7 +40,7 @@ public class AppResourceTest {
 	@Test
 	public void divideTest() {
 		AppResource appResource = new AppResource();
-		assertThat(appResource.multiply(15, 5)).isEqualTo(3);
+		assertThat(appResource.divide(15, 5)).isEqualTo(3);
 
 	}
 
