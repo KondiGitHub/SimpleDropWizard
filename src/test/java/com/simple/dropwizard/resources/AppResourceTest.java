@@ -22,5 +22,26 @@ public class AppResourceTest {
 		assertThat(appResource.add(15, 5)).isEqualTo(20);
 
 	}
+	
+	@Test
+	public void subtractionTest() {
+		AppResource appResource = new AppResource();
+		assertThat(appResource.add(15, 5)).isEqualTo(10);
+
+	}
+	
+	@Test
+	public void multiplyTest() {
+		AppResource appResource = new AppResource();
+		assertThat(appResource.multiply(15, 5)).isEqualTo(75);
+
+	}
+	
+	@Test
+	public void divideTest() {
+		AppResource appResource = new AppResource();
+		assertThat(appResource.multiply(15, 5)).isEqualTo(3);
+
+	}
 
 }
