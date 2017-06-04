@@ -26,7 +26,7 @@ public class AppResourceTest {
 	@Test
 	public void subtractionTest() {
 		AppResource appResource = new AppResource();
-		assertThat(appResource.subtrract(15, 5)).isEqualTo(10);
+		assertThat(appResource.subtrract(15, 10)).isEqualTo(150);
 
 	}
 	
